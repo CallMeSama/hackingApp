@@ -1,16 +1,15 @@
-package crack.hasher.src;
+package src.crack.hasher;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.security.MessageDigest;
-import java.time.Duration;
-import java.time.Instant;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-import crack.src.Crack;
+import src.crack.factory.Crack;
+
 
 public class DictionnaryHasher implements Crack {
 

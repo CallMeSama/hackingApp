@@ -1,8 +1,9 @@
-package crack.hasher.src;
+package src.crack.hasher;
 
 import java.security.MessageDigest;
 
-import crack.src.Crack;
+import src.crack.factory.Crack;
+
 
 public class BruteForceHasher implements Crack {
     private String input;

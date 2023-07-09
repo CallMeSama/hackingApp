@@ -1,8 +1,9 @@
-package main;
+package src.main;
 
 import java.util.Scanner;
-import crack.src.Crack;
-import crack.src.PasswordCrackerFactory;
+
+import src.crack.factory.*;
+
 import java.io.IOException;
 import java.security.MessageDigest;
 
